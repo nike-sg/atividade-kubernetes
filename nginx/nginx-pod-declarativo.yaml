@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod-declarativo
+  labels:
+    app: nginx-pod-declarativo
+spec:
+  containers:
+  - name: nginx-cont
+    image: nginx:latest
